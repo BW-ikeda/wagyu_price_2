@@ -16,7 +16,7 @@ p {
 }
 
 .content-width {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -60,6 +60,8 @@ footer {
 
 .card {
   border-radius: 0;
+  width: 400px;
+  height: 400px;
 }
 
 #page-top {
@@ -79,4 +81,22 @@ footer {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+
+.card-body {
+  text-align: center;
+  overflow: scroll;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card-deck{
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 200px;
 }
